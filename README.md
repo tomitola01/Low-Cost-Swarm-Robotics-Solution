@@ -1,7 +1,8 @@
 # Low-Cost-Swarm-Robotics-Solution
 Final year bachelors project that provides a practical low cost solution for swarm robotics foraging application.
 
-This solution uses multiple agents that implemet a foraging algorithm based of the Swarm Gradient Bug Alogrithm (SGBA) proposed by TU Delft in their own implementation of a drone swarm (link).
+This solution uses multiple agents that implemet a foraging algorithm based of the Swarm Gradient Bug Alogrithm (SGBA) proposed by TU Delft in their own implementation of a [drone swarm](https://www.science.org/doi/10.1126/scirobotics.aaw9710).
+
 [insert my alogrithm pic implementation]
 
 The final project used the minimum requirements of a swarm by implementing only 3 robots. A quasi-decentralised method is implemented where one of the agents acts as a central agent that stores and updates the states of the rest of the swarm.
