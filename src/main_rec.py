@@ -74,8 +74,8 @@ blue = "N"
 redFound = False
 blueFound = False
 
-send_pipe = b"\xe1\xf0\xf0\xf0\xf0"
-receive_pipe = b"\xd2\xf0\xf0\xf0\xf0"
+send_pipe = b"\xd2\xf0\xf0\xf0\xf0"
+receive_pipe = b"\xe1\xf0\xf0\xf0\xf0"
 
 def setup():
     nrf = NRF24L01(SPI(0), csn, ce, payload_size=payload_size)
