@@ -13,8 +13,6 @@ The robot agents themselves use Raspberry Pi Picos, RP2040 based microcontroller
 
 <img src="robot_agent.jpg" alt="" width="400"/>
 
-A custom PCB was created to integrate the components used (.brd file).
-
 There are a few of drawbacks to the system due to the low cost: mainly the step retracing implementation that uses millisecond timing without fusing encoder values, and the object detection method that uses an RGB sensor rather than a camera. If the central agent can no longer communicate to the swarm due to a power failure, the rest of the agents in the swarm are not able to communicate with each other. However a solution is proposed in the final report to circumvent this.
 
-Further improvements to the hardware and software implementation can be found in the final report for the project that can be viewed here (link).
+Further improvements to the hardware and software implementation, cost breakdown and more can be found in the final report for the project.
