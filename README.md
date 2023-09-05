@@ -18,4 +18,4 @@ Further improvements to the hardware and software implementation, cost breakdown
 ## Getting started
 1. Print the PCB then solder headers and componens as described in Section 5 of the report.
 2. Upload main_send.py to one robot and main_rec.py the rest of the robots in the swarm.
-3. Set up luminous red, green and blue objects to be found. 
+3. Set up luminous red, green and blue objects to be found. LEDs are the best option due to their low power and high efficiency.
