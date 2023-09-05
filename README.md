@@ -1,4 +1,4 @@
-# Low-Cost-Swarm-Robotics-Solution
+# Low Cost Swarm Robotics Solution
 Final year bachelors project that provides a practical low cost solution for swarm robotics foraging application.
 
 This solution uses multiple agents that implemet a foraging algorithm based of the Swarm Gradient Bug Alogrithm (SGBA) proposed by TU Delft in their own implementation of a [drone swarm](https://www.science.org/doi/10.1126/scirobotics.aaw9710).
@@ -16,3 +16,6 @@ There are a few of drawbacks to the system due to the low cost: mainly the step 
 Further improvements to the hardware and software implementation, cost breakdown and more can be found in the final report for the project.
 
 ## Getting started
+1. Print the PCB then solder headers and componens as described in Section 5 of the report.
+2. Upload main_send.py to one robot and main_rec.py the rest of the robots in the swarm.
+3. Set up luminous red, green and blue objects to be found. 
