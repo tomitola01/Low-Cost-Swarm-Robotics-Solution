@@ -11,7 +11,7 @@ More agents can be added to the swarm by [changing the receiving pipe in the mai
 
 The robot agents themselves use Raspberry Pi Picos, RP2040 based microcontrollers, due to their low cost (currently under £5 with headers soldered on the Pi Hut website) and flexibility as they can be programmed in either C/C++ or MicroPython.
 
-<img src="robot_agent.jpg" alt="" width="600"/>
+<img src="robot_agent.jpg" alt="" width="400"/>
 
 A custom PCB was created to integrate the components used (.brd file).
 
